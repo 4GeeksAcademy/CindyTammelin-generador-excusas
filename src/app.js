@@ -9,10 +9,10 @@ window.onload = function() {
   //write your code here
   console.log("Hello Rigo from the console!");
 
-  let who = ['The dog', 'My grandma', 'The mailman', 'My bird'];
-  let action = ['ate', 'peed', 'crushed', 'broke'];
-  let what = ['my homework', 'my phone', 'the car'];
-  let when = ['before the class', 'when I was sleeping', 'while I was exercising', 'during my lunch', 'while I was praying'];
+  let who = ['El perro', 'Mi abuelo', 'El hombre', 'Mi cabra'];
+  let action = ['corre', 'come', 'salta', 'rompe'];
+  let what = ['mi tarea', 'mi celular', 'mi carro'];
+  let when = ['despues de clases', 'cuando duermo', 'mientras hago ejercicio', 'mientras almuerzo', 'mientras estoy comiendo'];
 
   function getRandomElement(arr) {
     let randomIndex = Math.floor(Math.random() * arr.length);
