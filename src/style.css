@@ -1,5 +1,19 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
     background: white;
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#excuse {
+    font-size: 2em; 
+    font-family: serif; 
+    font-weight: bold;
+    max-width: 800px; 
+    margin-left: auto;
+    margin-right: auto;
 }
