@@ -34,4 +34,5 @@ window.onload = function() {
   }
 
   generateExcuse();
+  document.querySelector('#generateBtn').addEventListener('click', generateExcuse);
 };
